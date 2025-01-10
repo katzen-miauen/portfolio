@@ -320,7 +320,7 @@ footer {
 
 @media (max-width:600px) {
     header{
-        padding: 10px;
+        padding:
     }
     .menu{
         margin-right: 30px;
@@ -341,22 +341,20 @@ footer {
     }
 
     .container-cases{
-        gap: 8.5rem;
+        gap: 6.5rem;
     } 
-    .image{
-        margin-bottom: 7.5rem;
-    }
+    
     .title{
         padding-bottom: 50px;
     }
     .motion-cases{
-        padding-bottom: 7.5rem;
+        padding-bottom: 10.5rem;
     }
     .design-cases{
-        padding-bottom: 7.5rem;
+        padding-bottom: 10.5rem;
     }
     .art-cases{
-        padding-bottom: 7.5rem;
+        padding-bottom: 10.5rem;
     }
 }
 
