@@ -319,9 +319,13 @@ footer {
 }
 
 @media (max-width:600px) {
+    header{
+        padding: 10px;
+    }
     .menu{
         margin-right: 30px;
         padding: 10px;
+        padding-left: 18px;
     }
     .menu-item{
         padding-right: 20px;
@@ -331,6 +335,11 @@ footer {
         font-weight: 700;
         font-size: 0.88rem; 
     }
+    .hello{
+    padding-top:  87px; 
+    margin-bottom: 330px ;
+    }
+
     .container-cases{
         gap: 6.5rem;
     } 
