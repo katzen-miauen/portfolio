@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Sans+Mono:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="normalize.css">
-    <title>katzen miauen • portfolio</title>
+    <title>katzen miauen portfolio</title>
 
 </head>
 <body>
@@ -146,20 +146,44 @@
                         </p>
                     </div>
                     <!-- slider -->
-                    <img src="hyperobjects2.jpg" alt="" class="image">
+                    <div class="slider" id="slider1">
+                        <div class="slides" >
+                            <img src="book0.jpg" alt="" class="slide">
+                            <img src="book1.jpg" alt="" class="slide">
+                            <img src="book2.jpg" alt="" class="slide">
+                            <img src="book3.jpg" alt="" class="slide">
+                            <img src="book4.jpg" alt="" class="slide">
+                            <img src="book5.jpg" alt="" class="slide">
+                            <img src="book6.jpg" alt="" class="slide">
+                            <img src="book7.jpg" alt="" class="slide">
+                            
+                        </div>
+                        <button class="prev" onclick="prevSlide('slider1')">&#10094</button>
+                        <button class="next" onclick="nextSlide('slider1')">&#10095</button>
+                    </div>
                 </div>
                 <div class="case-item">
                     <div class="case-item-text">
                         <div class="case-name-tag">
                             <h2 class="progect-name">Neverbeen</h2>
-                            <div class="tag">album cover</div>
+                            <div class="tag">album covers</div>
                         </div>
                         <p class="description">
-                            DIRTY GLASSEZ&rsquo;s album &rsquo;Neverbeen&rsquo; was conceived as&nbsp;a&nbsp;work that evokes feelings of&nbsp;melancholy and nostalgia for unlived lives: places that have never been seen, people they did not know, houses they did not live&nbsp;in.
+                            DIRTY GLASSEZ&rsquo;s album <a href="https://band.link/neverbeen" target="_blank" rel="noopener noreferrer">Neverbeen</a> was conceived as&nbsp;a&nbsp;work that evokes feelings of&nbsp;melancholy and nostalgia for unlived lives. Places that have never been seen, people they did not know, houses they did not live&nbsp;in.
                         </p>
                     </div>
                     <!-- slider -->
-                    <img src="Wind Echoes.png" alt="" class="image">
+                     <div class="slider" id="slider2">
+                        <div class="slides">
+                            <img src="nb1.png" alt="" class="slide">
+                            <img src="nb2.png" alt="" class="slide">
+                            <img src="nb3.png" alt="" class="slide">
+                            <img src="nb4.png" alt="" class="slide">
+                        </div>
+                        <button class="prev" onclick="prevSlide('slider2')">&#10094</button>
+                        <button class="next" onclick="nextSlide('slider2')">&#10095</button>
+                     </div>
+                    <!-- <img src="Wind Echoes.png" alt="" class="image"> -->
                 </div>
                 
             </div>
@@ -209,8 +233,8 @@
                
         </section>
     </main>
-    <footer>
-        <section class="footer" id="footer">
+    <footer id="footer">
+        <section class="footer" >
             <h2 class="footer-h2-text">Experience</h2>
                 <div class="footer-text">
                     <div class="footer-text-work">
