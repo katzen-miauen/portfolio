@@ -1,25 +1,41 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #ffffff;
     font-family: "Anonymous Pro", sans-serif;
+    padding-top: 60px;
 }
 
 
 
 a{
-    text-decoration: none;
+    text-decoration: underline;
+    text-decoration-thickness: 1.30px;
+    text-underline-offset: 0.21rem;
     color: inherit;
 }
 
 header {
     position: fixed;
+    top: 0;
     left: 0;
-    padding: 26px;
+    padding: 15px;
     width: 100%;
+    background: none;
+    z-index: 99999;
     
 }
 
+header a{
+    text-decoration: none;
+    color: inherit;
+}
+
 .logo{
-    height: 60px;
+    height: 50px;
+    position: relative;
 }
 
 main{
@@ -47,7 +63,7 @@ main{
 
     list-style: none ;
     display: flex;
-    margin: 0px 60px 0px 0px;
+    margin: 0px 40px 0px 0px;
 }
 
 .menu-item{
@@ -72,6 +88,15 @@ main{
     width: 8.06rem;
     height: 2.31rem;
     
+}
+
+.showreel-btn{
+    text-decoration: none;
+}
+
+.showreel-btn:hover{
+    background-color: #000;
+    color: #fff;
 }
 
 .container-cases{
@@ -133,7 +158,7 @@ h2{
 }
 
 .description{
-    display: flex;
+    /* display: flex; */
     flex-grow: 1;
     flex-basis: 0;
     max-width: 468px;
@@ -156,8 +181,56 @@ h2{
     max-width: 954px  ;
 }
 
+.slider{
+    position: relative;
+    max-width: 954px  ;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider button{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px 15px;
+    font-size: 2rem;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    opacity: .3;
+}
+
+.slider:hover button {
+    opacity: 1;
+}
+
+.prev{
+    left: 0;
+}
+.next{
+    right: 0;
+}
+
+
+
+.slider img{
+    width: 100%;
+    display: none;
+}
+
+img.displaySlide{
+    display:block;
+    
+}
+
+
 footer {
     background-color: #1A1A1A;
+    width: 100%;
+    padding: 0 0 20px 0; /* Adjust padding as needed */
+  
+    bottom: 0;
 }
 
 .footer{
@@ -216,6 +289,13 @@ footer {
     padding: 0px;
     padding-bottom: 9.12rem;
     list-style: none;
+    
+}
+
+@media (max-width:1840px){
+    header{
+        background: linear-gradient( hsla(0, 0%, 100%, 1),hsla(0, 0%, 100%, 0));
+    }
     
 }
 
@@ -320,7 +400,7 @@ footer {
 
 @media (max-width:600px) {
     header{
-        padding:
+        padding:10px;
     }
     .menu{
         margin-right: 30px;
